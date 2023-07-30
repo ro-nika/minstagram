@@ -1,0 +1,84 @@
+.postInfo {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px 0;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+}
+
+.cardZone {
+  width: 50%;
+}
+
+.commentsContainer {
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.commentsZone {
+  border-radius: 12px;
+  width: 50%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.commentsZone input {
+  width: 90%;
+  padding: 5px;
+  margin: 15px 20px;
+  border-radius: 6px;
+}
+
+.commentsZone svg {
+  width: 10%;
+  position: relative;
+  top: 16px;
+  right: 10px;
+
+
+}
+
+.commets {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.commets img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.icons {
+  display: flex;
+  margin: 10px 0;
+  justify-content: start;
+}
+
+.likesPopUp {
+  position: absolute;
+  left: 350px;
+  top: 190px;
+  width: 300px;
+  height: 400px;
+  z-index: 10;
+  font-weight: bold;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(5, 5, 5, 0.393);
+  overflow: auto;
+}
